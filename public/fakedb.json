@@ -1,0 +1,163 @@
+[
+    {
+        "Programming Courses": [
+            {
+                "id": 0,
+                "name": "short-term hospitalization ",
+                "mentor": "J. Mahbub",
+                "img": "",
+                "rating": 5,
+                "duration": "1 month",
+                "price": 150
+            },
+            {
+                "id": 1,
+                "name": "emergency room services ",
+                "mentor": "Jhanker M",
+                "img": "",
+                "rating": 3,
+                "duration": "4 month",
+                "price": 250
+            },
+            {
+                "id": 2,
+                "name": "Learn Python",
+                "mentor": "Shudipto Das",
+                "img": "",
+                "rating": 4,
+                "duration": "4 month",
+                "price": 450
+            },
+            {
+                "id": 3,
+                "name": "Complete Web Development with Django",
+                "mentor": "S. Das",
+                "img": "",
+                "rating": 5,
+                "duration": "4 month",
+                "price": 250
+            },
+            {
+                "id": 4,
+                "name": "Basic React",
+                "mentor": "Jhanker Mahbub",
+                "img": "",
+                "rating": 3,
+                "duration": "3 month",
+                "price": 250
+            },
+            {
+                "id": 5,
+                "name": "Basic HTML CSS & JS",
+                "mentor": "Mosh",
+                "img": "",
+                "rating": 5,
+                "duration": "4 month",
+                "price": 850
+            },
+            {
+                "id": 6,
+                "name": "Hack Nasa with HTML",
+                "mentor": "Fake Anonymous",
+                "img": "",
+                "rating": 1,
+                "duration": "1 month",
+                "price": 50
+            },
+            {
+                "id": 7,
+                "name": "Complete Java with Spring",
+                "mentor": "Anisul Islam",
+                "img": "",
+                "rating": 4,
+                "duration": "4 month",
+                "price": 250
+            },
+            {
+                "id": 8,
+                "name": "Learn ReactJs",
+                "mentor": "Sumit Saha",
+                "img": "",
+                "rating": 5,
+                "duration": "2 month",
+                "price": 550
+            }
+        ],
+        "Music": [
+            {
+                "id": 9,
+                "name": "Singing",
+                "mentor": "Adelle",
+                "img": "",
+                "rating": 4,
+                "duration": "10 month",
+                "price": 950
+            },
+            {
+                "id": 10,
+                "name": "Country Music",
+                "mentor": "John Denver",
+                "img": "",
+                "rating": 5,
+                "duration": "14 month",
+                "price": 5050
+            },
+            {
+                "id": 11,
+                "name": "Learn Harmonium",
+                "mentor": "Shudipto Das",
+                "img": "",
+                "rating": 5,
+                "duration": "4 month",
+                "price": 10450
+            },
+            {
+                "id": 12,
+                "name": "Flute",
+                "mentor": "S. Das",
+                "img": "",
+                "rating": 5,
+                "duration": "4 month",
+                "price": 250
+            }
+        ],
+        "Drama": [
+            {
+                "id": 13,
+                "name": "Basic Theatre",
+                "mentor": "Joaquin Pheonix",
+                "img": "",
+                "rating": 4,
+                "duration": "10 month",
+                "price": 950
+            },
+            {
+                "id": 14,
+                "name": "Theatre Advance",
+                "mentor": "Chanchal Chowdhury",
+                "img": "",
+                "rating": 5,
+                "duration": "14 month",
+                "price": 5050
+            },
+            {
+                "id": 15,
+                "name": "Critical Roles",
+                "mentor": "Cristopher Nolan",
+                "img": "",
+                "rating": 5,
+                "duration": "3 month",
+                "price": 10450
+            },
+            {
+                "id": 16,
+                "name": "Classic 90s",
+                "mentor": "Martin Scorsese",
+                "img": "",
+                "rating": 5,
+                "duration": "6 month",
+                "price": 20250
+            }
+        ]
+    }
+]
