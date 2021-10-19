@@ -1,0 +1,140 @@
+[
+    {
+        "services": [
+            {
+                "id": 0,
+                "name": "Short-term Hospitalization",
+                "details": "A ward providing targeted care for patients requiring brief hospitalization and dischargeable as soon as clinical conditions are resolved.",
+                "img": "https://img.freepik.com/free-photo/medic-african-ethnicity-helping-sick-patient-clinic-hospital-ward-doctor-using-medical-equipment-technology-young-woman-healthcare-treatment-black-person-bed_482257-16526.jpg?size=338&ext=jpg"
+            },
+            {
+                "id": 1,
+                "name": "Emergency Room Services ",
+                "details": "When you arrive at our ER, we evaluate your medical condition and make an assessment of your needs. To ensure patients receive the very finest care, we see the most severe cases first, but in all cases, we strive to minimize the wait time for every patient. Your emergency is important to you, and it’s important to us. Reducing patient wait time is a crucial indicator we work to manage every day.",
+                "img": "https://image.freepik.com/free-vector/emergency-service-team_23-2147933444.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Neurology Clinic",
+                "details": "Some neurologists receive subspecialty training focusing on a particular area of the fields, these training programs are called fellowships, and are one to two years. ",
+                "img": "https://image.freepik.com/free-photo/neurological-doctor-cheking-eeg-headset-explaining-patient-diagnosis-disease-treatment-nervous-system-scientist-researcher-analysing-brain-scan-tomography-monitor-lab_482257-13083.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Blood and Tissue Tests",
+                "details": "When you are not well, your doctor can order blood and tissue tests to help further understand what your body is doing.",
+                "img": "https://img.freepik.com/free-photo/team-medical-engineers-test-blood-find-cure-coronavirus-science-laboratory-doctor-working-with-various-bacteria-tissue-pharmaceutical-research-antibiotics-against-covid19_482257-8830.jpg?size=338&ext=jpg"
+            },
+            {
+                "id": 4,
+                "name": "Heart diseases",
+                "details": "Our Cardiology service does diagnostic procedures and runs clinics for elective and emergency patients. We care for people who are in hospital, have been to hospital or need to come to hospital. We also treat people with irregular heartbeats and adult inherited heart disease.",
+                "img": "https://image.freepik.com/free-photo/top-view-world-heart-day-concept-with-stethoscope_23-2148631023.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Kidney care",
+                "details": "The RMH Kidney Care service is a comprehensive Australian and State-Wide renal service providing care and support for all aspects of care for acute and chronic kidney disease, dialysis and transplant services. We specialize in disease affecting the kidney, although we play a central role in supporting other units which have a high number of patients with other diseases, which may cause acute and chronic kidney injury.",
+                "img": "https://image.freepik.com/free-vector/doctors-conducting-dialysis-procedure-kidney-treatment_74855-10607.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Drug and alcohol issues",
+                "details": "The Royal Melbourne Hospital provides drug and alcohol support to current inpatients who have been identified with drug and alcohol issues. If you are an inpatient of the hospital and require drug and alcohol support you will be seen by a member from the hospital's Addiction Medicine team.",
+                "img": "https://img.freepik.com/free-photo/medication-colorful-tablets-pills-arranged-abstract-bottle-alcohol-cigarettes-yellow-pink-rose-background_365776-8511.jpg?size=338&ext=jpg"
+            },
+            {
+                "id": 7,
+                "name": "Stomach, intestinal & liver diseases",
+                "details": "Our Gastroeterology and Hepatology service provides care for people with conditions of the digestive system and liver. We care for people who are in hospital, have been to hospital or need to come to hospital for diseases of the gut and liver. We also provide outpatient services in clinical nutrition and conditions associated with the swallowing and digestive processes.",
+                "img": "https://image.freepik.com/free-vector/diagram-showing-different-stomach-hurts-woman_1308-38777.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Immune system & allergies",
+                "details": "Our Immunology and Allergy service is Victoria's most comprehensive centre for allergies and immune system disorders. We care for people who are in hospital, have been to hospital or need to come to hospital for Allergy skin testing, Respiratory allergy - rhinitis, chronic sinusitis, hayfever and asthma, Food allergies, Allergen desensitisation (immunotherapy) - for stinging insect venom allergy and respiratory allergies like hayfever, Anaphylaxis - sever allergic reactions, Testing for general anaesthetic, Assessment of other drug allergies, such as antibiotics, Mastocytosis - a rare blood disorder",
+                "img": "https://integrisok.com/-/media/resources/articles/allergies-and-the-immune-system.ashx?as=1&mw=720&usecustomfunctions=1&relativeresize=1&revision=79fd0782-5a4e-4faf-9e11-158cd043cb1b&hash=B000D2C34211F9AD2B0E852764B5C303505B4938"
+            },
+            {
+                "id": 9,
+                "name": "Skin, scalp, hair & nail diseases",
+                "details": "Our Dermatology service provides treatment of skin diseases for elective and emergency patients. Dermatology is the study of the skin and skin diseases. We care for people who are in hospital, have been to hospital or need to come to hospital",
+                "img": "https://img.freepik.com/free-photo/view-from-rejuvenation-beautiful-woman-enjoying-cosmetology-procedures-beauty-salon-dermatology-hands-blue-glows-healthcare-therapy-botox_197531-2783.jpg?size=338&ext=jpg"
+            },
+            {
+                "id": 10,
+                "name": "Sleep medicine",
+                "details": "The Sleep Disorders Service is an accredited medical service that has been improving the sleep of Melbournians since 2006. Our six bed facility caters to a range of patients and needs and we endeavour to make your sleep study as comfortable experience as possible. We run seven nights a week and perform in-home diagnostic and treatment studies. Each of our six single patient rooms has a private ensuite, with toilet and shower facilities, and include free television and free wi-fi. We understand that a sleep study can be a daunting process for some patients and do our best to put patients at ease during their sleep study.",
+                "img": "https://image.freepik.com/free-photo/beautiful-asian-young-woman-sitting-bed-take-sleeping-pill-night-medicine-bedroom-unhealthy-sick-indian-female-suffers-from-insomnia-headache-depressed-girl-holds-antidepressant-meds_7861-2142.jpg"
+            },
+            {
+                "id": 11,
+                "name": "Bone health",
+                "details": "Our Bone and Mineral Medicine service cares for people with bone health problems. We care for people who are in hospital, have been to hospital or need to come to hospital for: Osteoporosis, Other disorders causing bone fragility and/or affecting bone and mineral metabolism. High quality, state-of-the-art bone density testing and related measures are provided by the Bone Densitometry Unit.",
+                "img": "https://image.freepik.com/free-photo/side-view-woman-having-backache-while-working-from-home_23-2148813150.jpg"
+            },
+            {
+                "id": 12,
+                "name": "Infectious diseases",
+                "details": "Our Victorian Infectious Diseases Service (VIDS) specialises in post-travel and refugee health, HIV/AIDS, tuberculosis, viral hepatitis and general infectious diseases. Ward 9 East is a purpose-built facility to care for infectious disease patients. It has 20 beds with 14 single rooms. All rooms have monitored negative pressure ventilation systems which provide the best safety for patients and staff for patients with respiratory and other airborne infectious diseases that require isolation. The ward also provides a unit with special facilities for treating patients with exotic diseases including the statewide service for Viral Haemorrhagic Fever.",
+                "img": "https://img.freepik.com/free-photo/sick-woman-sitting-bed-blowing-nose-with-napkin_1262-18654.jpg?size=338&ext=jpg"
+            },
+            {
+                "id": 13,
+                "name": "Breast checks",
+                "details": "We provide free breast checks for women aged 40 years and over without breast symptoms or breast problems. North Western BreastScreen provides screening, counselling, support, and information to women who are aged 40 years and over. The program is especially targeted to woman aged 50 to 69. We have an assessment centre at the RMH Royal Park Campus.",
+                "img": "https://image.freepik.com/free-vector/mammography-scan-with-doctor-breast-cancer-awareness-month_40876-2651.jpg"
+            },
+            {
+                "id": 14,
+                "name": "X-rays, scans & imaging",
+                "details": "Our Radiology service offers a full range of scans and imaging for patients using state-of-the-art equipment. These services are available for public and private patients. We perform over 160,000 diagnostic and therapeutic procedures every year at the City Campus, Royal Park Campus and at RMH Private Imaging. We have 15 consultant radiologists who see patients to perform x-rays, scans and imaging, as well as guided biopsies and spinal injections. We also have 7 nuclear medicine consultants who perform nuclear medicine studies.",
+                "img": "https://img.freepik.com/free-photo/close-up-revealing-shot-medical-dentistry-display-with-teeth-diagnosis-xray-images-it_482257-2312.jpg?size=338&ext=jpg"
+            }
+        ],
+        "careers": [
+            {
+                "id": 0,
+                "name": "Careers at the RMH",
+                "details": "Are you interested in a career in nursing, medical or allied health at the RMH? Find out more about our career opportunities, education and graduate programs."
+            },
+            {
+                "id": 1,
+                "name": "Country Music",
+                "details": "John Denver"
+            },
+            {
+                "id": 2,
+                "name": "Learn Harmonium",
+                "details": "Shudipto Das"
+            },
+            {
+                "id": 3,
+                "name": "Flute",
+                "details": "S. Das"
+            }
+        ],
+        "covid": [
+            {
+                "id": 0,
+                "name": "Basic Theatre",
+                "details": "Joaquin Pheonix"
+            },
+            {
+                "id": 1,
+                "name": "Theatre Advance",
+                "details": "Chanchal Chowdhury"
+            },
+            {
+                "id": 2,
+                "name": "Critical Roles",
+                "details": "Cristopher Nolan"
+            },
+            {
+                "id": 3,
+                "name": "Classic 90s",
+                "details": "Martin Scorsese"
+            }
+        ]
+    }
+]

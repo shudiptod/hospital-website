@@ -18,11 +18,11 @@ const fadeImages = [
 ];
 const Banner = () => {
     return (
-        <div className="slide-container container w-100 h-14 mx-auto my-3">
+        <div className="slide-container container w-100 h-14 mx-auto my-3 banner">
             <Fade>
                 {fadeImages.map((fadeImage, index) => (
                     <div className="each-fade" key={index}>
-                        <div className="image-container w-full h-96  mx-auto">
+                        <div className="image-container w-full height-modify  mx-auto">
                             <img className="w-full h-full" src={fadeImage.url} />
                         </div>
                     </div>
