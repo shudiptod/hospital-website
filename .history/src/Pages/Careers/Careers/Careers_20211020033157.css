@@ -1,0 +1,4 @@
+@import tiles from '../../../images/tile-triangles.png';
+.careers{
+    background-image: url(tiles);
+}
