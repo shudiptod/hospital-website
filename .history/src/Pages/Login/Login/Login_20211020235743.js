@@ -8,7 +8,7 @@ const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [isNew, setIsNew] = useState(false);
-    const [passShow, setPassShow] = useState('');
+
 
     const { signUpWithEmail, signInUsingGoogle, signInWithEmail } = useFirebase();
 
@@ -25,9 +25,9 @@ const Login = () => {
     const emailSignUp = (e) => {
         e.preventDefault();
         const passShow = signUpWithEmail(name, email, password);
-        setPassShow(passShow);
         document.getElementById("form").reset();
         history.push("/home");
+        window.location.reload();
     }
     return (
         <div className="flex flex-col items-center w-full">

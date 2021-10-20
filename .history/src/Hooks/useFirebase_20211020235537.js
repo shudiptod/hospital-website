@@ -47,29 +47,26 @@ const useFirebase = () => {
         if (password < 6) {
             return <h2>password must be atleast 6 characters</h2>
         }
-        else {
-            createUserWithEmailAndPassword(auth, email, password)
-                .then((userCredential) => {
-                    // Signed in 
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                // Signed in 
 
-                    updateProfile(auth.currentUser, {
-                        displayName: name
-                    }).then(() => { });
-                    // const currentUser = userCredential.user;
-                    // setUser(currentUser);
-                    signInWithEmail(email, password);
-                })
-                .catch((error) => {
-                    const errorCode = error.code;
-                    const errorMessage = error.message;
-                    console.log(errorMessage);
-                    // ..
-                })
-                .finally(() => {
-                    setIsLoading(false);
-                });
-            return <></>
-        }
+                updateProfile(auth.currentUser, {
+                    displayName: name
+                }).then(() => { });
+                // const currentUser = userCredential.user;
+                // setUser(currentUser);
+                signInWithEmail(email, password);
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.log(errorMessage);
+                // ..
+            })
+            .finally(() => {
+                setIsLoading(false);
+            });
     }
 
     const signInWithEmail = (email, password) => {

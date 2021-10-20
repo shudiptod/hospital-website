@@ -25,9 +25,9 @@ const Login = () => {
     const emailSignUp = (e) => {
         e.preventDefault();
         const passShow = signUpWithEmail(name, email, password);
-        setPassShow(passShow);
         document.getElementById("form").reset();
         history.push("/home");
+        window.location.reload();
     }
     return (
         <div className="flex flex-col items-center w-full">
