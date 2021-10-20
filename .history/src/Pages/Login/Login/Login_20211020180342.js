@@ -26,23 +26,23 @@ const Login = () => {
                         <h2 className="text-sm text-center font-semibold text-gray-800 font-mono mb-5">already have an account?
                             <span className="underline hover:text-blue-900">Click Here</span></h2>
 
-                        <div class="w-4/12 mx-auto border-2 rounded-md border-solid border-blue-900 px-6 py-8" >
+                        <div className="w-4/12 mx-auto border-2 rounded-md border-solid border-blue-900 px-6 py-8" >
                             <form onSubmit={(e) => { emailSignUp(e) }}>
 
-                                <div class="mb-6">
-                                    <label for="name" class="text-sm font-medium text-gray-900 block mb-2">Name</label>
-                                    <input onBlur={(e) => { setName(e.target.value) }} type="text" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                                <div className="mb-6">
+                                    <label for="name" className="text-sm font-medium text-gray-900 block mb-2">Name</label>
+                                    <input onBlur={(e) => { setName(e.target.value) }} type="text" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                         placeholder="name" required="" />
                                 </div>
-                                <div class="mb-6">
-                                    <label for="email" class="text-sm font-medium text-gray-900 block mb-2">Your email</label>
-                                    <input onBlur={(e) => { setEmail(e.target.value) }} type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@flowbite.com" required="" />
+                                <div className="mb-6">
+                                    <label for="email" className="text-sm font-medium text-gray-900 block mb-2">Your email</label>
+                                    <input onBlur={(e) => { setEmail(e.target.value) }} type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@flowbite.com" required="" />
                                 </div>
-                                <div class="mb-6">
-                                    <label for="password" class="text-sm font-medium text-gray-900 block mb-2">Your password</label>
-                                    <input onBlur={(e) => { setPassword(e.target.value) }} type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required="" />
+                                <div className="mb-6">
+                                    <label for="password" className="text-sm font-medium text-gray-900 block mb-2">Your password</label>
+                                    <input onBlur={(e) => { setPassword(e.target.value) }} type="password" id="password" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required="" />
                                 </div>
-                                <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Submit</button>
+                                <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Submit</button>
                             </form>
                         </div>
                     </>
@@ -50,19 +50,19 @@ const Login = () => {
                     <>
                         <h2 className="text-4xl text-center font-semibold text-gray-800 font-mono mb-5">Sign In</h2>
 
-                        <div class="w-4/12 mx-auto border-2 rounded-md border-solid border-blue-900 px-6 py-8" >
+                        <div className="w-4/12 mx-auto border-2 rounded-md border-solid border-blue-900 px-6 py-8" >
 
                             <form onSubmit={(e) => { emailLogin(e) }}>
 
-                                <div class="mb-6">
-                                    <label for="email" class="text-sm font-medium text-gray-900 block mb-2">Your email</label>
-                                    <input onBlur={(e) => { setEmail(e.target.value) }} type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@flowbite.com" required="" />
+                                <div className="mb-6">
+                                    <label for="email" className="text-sm font-medium text-gray-900 block mb-2">Your email</label>
+                                    <input onBlur={(e) => { setEmail(e.target.value) }} type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@flowbite.com" required="" />
                                 </div>
-                                <div class="mb-6">
-                                    <label for="password" class="text-sm font-medium text-gray-900 block mb-2">Your password</label>
-                                    <input onBlur={(e) => { setPassword(e.target.value) }} type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required="" />
+                                <div className="mb-6">
+                                    <label for="password" className="text-sm font-medium text-gray-900 block mb-2">Your password</label>
+                                    <input onBlur={(e) => { setPassword(e.target.value) }} type="password" id="password" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required="" />
                                 </div>
-                                <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Submit</button>
+                                <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Submit</button>
                             </form>
 
 
