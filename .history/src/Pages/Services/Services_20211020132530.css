@@ -1,0 +1,6 @@
+.back-container{
+    background: url("https://image.freepik.com/free-vector/wavy-background-with-copy-space_52683-65230.jpg") no-repeat center center fixed;
+    background-size: contain;
+    
+    overflow: hidden;
+}
