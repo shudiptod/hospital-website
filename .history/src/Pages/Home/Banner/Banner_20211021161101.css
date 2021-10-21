@@ -114,17 +114,9 @@
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
-.height-modify{
+/* .height-modify{
     height: 600px !important;
 }
 .banner{
     height: 600px !important;
-}
-
-@media only screen and (max-width: 600px) {
-    .height-modify{
-        height: 300px !important;
-    }
-    .banner{
-        height: 300px !important;
-    }  }
+} */
