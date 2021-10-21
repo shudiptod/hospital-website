@@ -50,18 +50,18 @@ const Login = () => {
                                 <div className="mb-6">
                                     <label htmlFor="name" className="text-sm font-medium text-gray-900 block mb-2">Name</label>
                                     <input onBlur={(e) => { setName(e.target.value) }} type="text" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                        placeholder="name" required />
+                                        placeholder="name" required="" />
                                 </div>
                                 <div className="mb-6">
                                     <label htmlFor="email" className="text-sm font-medium text-gray-900 block mb-2">Your email</label>
-                                    <input onBlur={(e) => { setEmail(e.target.value) }} type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@flowbite.com" required />
+                                    <input onBlur={(e) => { setEmail(e.target.value) }} type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@flowbite.com" required="" />
                                 </div>
                                 <div className="mb-6">
                                     <label htmlFor="password" className="text-sm font-medium text-gray-900 block mb-2">Your password</label>
                                     <input onBlur={(e) => { setPassword(e.target.value) }} type="password" id="password" className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required="" />
                                     {passShow ?
-                                        <h2 className="text-md font-semibold text-red-600 mt-3">
-                                            Must be atleast 6 characters long.</h2>
+                                        <h2 className="text-red-600">
+                                            Must be 6 characters long.</h2>
                                         : <></>}
                                 </div>
 

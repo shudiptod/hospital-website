@@ -66,6 +66,9 @@ const useFirebase = () => {
             .finally(() => {
                 setIsLoading(false);
             });
+        return <></>
+
+
     }
 
     const signInWithEmail = (email, password) => {
