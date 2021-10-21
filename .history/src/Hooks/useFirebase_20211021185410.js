@@ -45,6 +45,7 @@ const useFirebase = () => {
 
     const signUpWithEmail = (name, email, password) => {
 
+
         createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 // Signed in 

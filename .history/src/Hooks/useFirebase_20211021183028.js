@@ -45,6 +45,7 @@ const useFirebase = () => {
 
     const signUpWithEmail = (name, email, password) => {
 
+
         createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 // Signed in 
@@ -52,21 +53,22 @@ const useFirebase = () => {
                 updateProfile(auth.currentUser, {
                     displayName: name
                 }).then(() => { });
-
+                // const currentUser = userCredential.user;
+                // setUser(currentUser);
                 signInWithEmail(email, password);
             })
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
-
+                console.log(errorMessage);
+                // ..
             })
             .finally(() => {
                 setIsLoading(false);
             });
     }
 
-    const signInWithEmail = (email, password) => {
-
+    const signInWithEmail = (email, password, setLoginError) => {
         signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 // Signed in 
@@ -77,12 +79,9 @@ const useFirebase = () => {
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
-
+                return true;
             })
-            .finally(() => {
-                setIsLoading(false);
-            });
-
+            .finally(() => setIsLoading(false));
     }
 
     const logOut = () => {
