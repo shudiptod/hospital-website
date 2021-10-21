@@ -3,7 +3,7 @@ import './Footer.css';
 import { FaFacebook, FaInstagram, FaMailBulk, FaMapMarkerAlt, FaPhoneAlt, FaTwitter, FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
     return (
-        <div className="mb-0 w-full bg-blue-900 text-white font-sans text-center 
+        <div className="mb-0 w-full bg-blue-900 text-black font-sans text-center 
         p-3 flex flex-col justify-center footer-div sm:mb-0">
             <div className="mx-auto grid lg:grid-cols-3 sm:grid-cols-1 w-10/12 pt-5 pb-4 items-center justify-items-center text-center">
                 <div className="mx-auto w-full h-full">

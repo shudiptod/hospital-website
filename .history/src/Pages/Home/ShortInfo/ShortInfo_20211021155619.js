@@ -12,7 +12,7 @@ const ShortInfo = () => {
                     <h3 className="text-xl text-white font-mono font-semibold">0163333555</h3>
                 </div>
             </div>
-            <div className="lg:w-4/12 bg-indigo-600 text-center py-4">
+            <div className="w-4/12 bg-indigo-600 text-center py-4">
                 <h3 className="text-lg text-white font-mono font-semibold">Doctors Timetable</h3>
                 <p className="text-sm w-8/12 my-5 mx-auto font-thin text-justify">
                     Qualified doctors available six days a week, view our timetable to make an appointment.
@@ -25,7 +25,7 @@ const ShortInfo = () => {
                 </button>
 
             </div>
-            <div className="lg:w-4/12 bg-blue-800 rounded-r-lg text-center py-4">
+            <div className="w-4/12 bg-blue-800 rounded-r-lg text-center py-4">
                 <div className="flex items-center justify-evenly">
                     <h3 className="text-lg text-white font-mono font-normal">Opening Hours</h3>
                     <FaRegClock></FaRegClock>

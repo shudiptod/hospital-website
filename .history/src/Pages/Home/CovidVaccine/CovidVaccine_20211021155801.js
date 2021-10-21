@@ -2,7 +2,7 @@ import React from 'react';
 import './CovidVaccine.css';
 const CovidVaccine = () => {
     return (
-        <div className="p-4 shadow-md rounded-md text-left text-md font-semibold lg:w-6/12">
+        <div className="p-4 shadow-md rounded-md text-left text-md font-semibold lg:w-6/12 sm:w-10/12">
             <h2 className="text-center text-3xl mt-8 mb-4">Covid Vaccine Registration</h2>
             <label className="block" />
             <span className="text-gray-700">Name</span>
