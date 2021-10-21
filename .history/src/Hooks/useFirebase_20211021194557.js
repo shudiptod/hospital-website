@@ -53,7 +53,7 @@ const useFirebase = () => {
                     displayName: name
                 }).then(() => { });
 
-                setUser(auth.currentUser);
+                signInWithEmail(email, password);
             })
             .catch((error) => {
                 const errorCode = error.code;

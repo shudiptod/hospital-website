@@ -44,10 +44,7 @@ const Login = () => {
                     <>
                         <h2 className="text-4xl text-center font-semibold text-gray-800 font-mono mb-5">Create Account</h2>
                         <h2 className=" select-none text-sm text-center font-semibold text-gray-800 font-mono mb-5">already have an account?
-                            <span onClick={() => {
-                                document.getElementById("form").reset();
-                                setIsNew(false)
-                            }} className=" mx-2 underline hover:text-blue-900 cursor-pointer">Click Here</span></h2>
+                            <span onClick={() => setIsNew(false)} className=" mx-2 underline hover:text-blue-900 cursor-pointer">Click Here</span></h2>
 
                         <div className="w-4/12 mx-auto border-2 rounded-md border-solid border-blue-900 px-6 py-8" >
                             <form id="form" onSubmit={(e) => { emailSignUp(e) }}>
